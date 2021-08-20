@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://wechaty.js.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wechaty.js.org/" rel="alternate" type="text/html" /><updated>2021-08-20T19:15:53+00:00</updated><id>https://wechaty.js.org/feed.xml</id><title type="html">Wechaty</title><subtitle>Conversational RPA SDK for Chatbot Makers</subtitle><entry><title type="html">GSoD’21 Eighth Meeting</title><link href="https://wechaty.js.org/2021/08/15/gsod-2021-eighth-meeting/" rel="alternate" type="text/html" title="GSoD’21 Eighth Meeting" /><published>2021-08-15T00:00:00+00:00</published><updated>2021-08-15T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/08/15/gsod-2021-eighth-meeting</id><content type="html" xml:base="https://wechaty.js.org/2021/08/15/gsod-2021-eighth-meeting/">&lt;h2 id=&quot;google-season-of-docs21-eighth-meeting&quot;&gt;Google Season of Docs’21 Eighth meeting&lt;/h2&gt;
+
+&lt;h3 id=&quot;meeting-summary&quot;&gt;Meeting Summary&lt;/h3&gt;
+
+&lt;p&gt;It was the eighth meeting of the GSoD’21 participants. Firstly every participant gave one’s weekly summary and informed the community
+ about their plans for the upcoming week, volunteers and tech writers discussed while tech writers were giving their week summaries.
+  Later we discussed comments and questions of the participants, and they all were regarding getting reviews, feedback, &amp;amp; help, and
+   at last, we took a lovely group photo. In the end I would like to stress upon the need of faster reviewal and merging of the PRs,
+    after listening everyone at the meet.&lt;/p&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/zLtLp5i0MD8&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;attendees&quot;&gt;Attendees&lt;/h3&gt;
+
+&lt;p&gt;Total 10 attendees attended the meeting. They are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rohitesh Jain, Volunteer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Sajen Sarvajith, Reconstruct Landing page writer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Abhishek Jaiswal, How-to-guide section writer (UTC + 05:30)&lt;/li&gt;
+  &lt;li&gt;Mukosa Joseph Mawa, Introductions and Explanations section writer (UTC +03:00)&lt;/li&gt;
+  &lt;li&gt;Rajiv Ranjan Singh, Improve the gRPC and OpenAPI ecosystem writer, rajivperfect007@gmail.com, (UTC+05:30)&lt;/li&gt;
+  &lt;li&gt;Shraddha, Improve References section writer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Shwetal Soni, Create easy to learn tutorials for beginners users writer (UTC +05:30)&lt;/li&gt;
+  &lt;li&gt;Vasvi Sood, How to guides, contactvasvisood@gmail.com writer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Chris Estepa,  Introduction and Explanations sections writer (UTC +08:00)&lt;/li&gt;
+  &lt;li&gt;Soumi Bardhan, Improve References section writer (UTC + 5:30)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Note: Meeting started on schedule and Simin, Souvik, and Arnab Saha weren’t able to make it up to the meeting.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/08-gsod-2021-eighth-meeting/gsod-eighth-meeting.webp&quot; alt=&quot;Google Season of Docs 2021: Wechaty GSoD'21 Group Photo&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;agendas&quot;&gt;Agendas&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/zLtLp5i0MD8&quot;&gt;00:00&lt;/a&gt; 0. Introduction &amp;amp; Welcome&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/zLtLp5i0MD8?t=61&quot;&gt;01:01&lt;/a&gt; 1. Discussion with Tutorials team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/zLtLp5i0MD8?t=271&quot;&gt;04:31&lt;/a&gt; 2. Discussion with Introduction and explanation team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/zLtLp5i0MD8?t=472&quot;&gt;07:52&lt;/a&gt; 3. Discussion with Landing page team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/zLtLp5i0MD8?t=625&quot;&gt;10:25&lt;/a&gt; 4. Discussion with References section team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/zLtLp5i0MD8?t=677&quot;&gt;11:17&lt;/a&gt; 5. Discussion with gRPC team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/zLtLp5i0MD8?t=737&quot;&gt;12:17&lt;/a&gt; 6. Questions/comments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can learn more from our &lt;a href=&quot;https://docs.google.com/document/d/1fVCk8qRYc4RKGMf2UY5HOe07hEhPUOpGC34v88GEFJg/edit#heading=h.edr3nzd8l43b&quot;&gt;meeting notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;meeting-outcomes&quot;&gt;Meeting Outcomes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The community got to know about the progress and plans of the members&lt;/li&gt;
+  &lt;li&gt;Community got to know the follow-up actions for the mentors and volunteers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;meeting-follow-ups&quot;&gt;Meeting Follow-ups&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Merge PRs in this &lt;a href=&quot;https://github.com/wechaty/wechaty.js.org/issues/1056&quot;&gt;list&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tutorials team is in stalemate position, as they await for these issues to be resolved, &lt;a href=&quot;https://github.com/wechaty/wechaty.js.org/issues/1200&quot;&gt;#1200&lt;/a&gt;,
+&lt;a href=&quot;https://github.com/wechaty/wechaty.js.org/issues/1199&quot;&gt;1199&lt;/a&gt;, &lt;a href=&quot;https://github.com/wechaty/wechaty.js.org/issues/1193&quot;&gt;1193&lt;/a&gt;,
+&lt;a href=&quot;https://github.com/wechaty/wechaty.js.org/issues/1176&quot;&gt;1176&lt;/a&gt;, &lt;a href=&quot;https://github.com/wechaty/wechaty.js.org/issues/1119&quot;&gt;1119&lt;/a&gt;, and apart from this,
+they need answers to some questions in &lt;a href=&quot;https://www.google.com/url?q=https://github.com/wechaty/wechaty.js.org/issues/1133&amp;amp;sa=D&amp;amp;source=editors&amp;amp;ust=1629112006415252&amp;amp;usg=AOvVaw3FSZMDamAkYDe_QH7hv3LF&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Create tutorial pages for some of the bots mentioned on the &lt;a href=&quot;https://wechaty.js.org/docs/showcases/&quot;&gt;Showcases&lt;/a&gt; page (need feedback from the community members). The introduction team has already mentioned these bots &lt;a href=&quot;https://wechaty.js.org/docs/showcases/osschat-bot/&quot;&gt;here&lt;/a&gt;. Is it required to be added in tutorials also&lt;/li&gt;
+  &lt;li&gt;Merge &lt;a href=&quot;https://github.com/wechaty/wechaty.js.org/pull/865&quot;&gt;#865&lt;/a&gt; as it blocking progress of the Reference teams&lt;/li&gt;
+  &lt;li&gt;Review upon landing page video&lt;/li&gt;
+  &lt;li&gt;How to guides, gRPC, and Introduction teams are preparing their final project reports and expecting faster reviews on their PRs&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>rohitesh-kumar-jain</name></author><category term="gsod" /><category term="google" /><category term="gsod" /><category term="event" /><category term="gsod-2021" /><category term="2021" /><category term="zoom" /><category term="docs" /><summary type="html">Google Season of Docs’21 Eighth meeting</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/08-gsod-2021-eighth-meeting/gsod-eighth-meeting.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/08-gsod-2021-eighth-meeting/gsod-eighth-meeting.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wechaty卡通P图插件，18行代码帮你实现变脸功能</title><link href="https://wechaty.js.org/2021/08/13/wechaty-face-carton/" rel="alternate" type="text/html" title="Wechaty卡通P图插件，18行代码帮你实现变脸功能" /><published>2021-08-13T00:00:00+00:00</published><updated>2021-08-13T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/08/13/wechaty-face-carton</id><content type="html" xml:base="https://wechaty.js.org/2021/08/13/wechaty-face-carton/">&lt;p&gt;Wechaty 人像转换插件，让你的 Wechaty 机器人实现照片卡通化，年龄变化，性别变化等功能。之前有看到过一些机器学习视频，可以把照片漫画化，感觉很有意思，就想着能不能结合 Wechaty 做一个可以自动返回动漫化照片的机器人。经过一番资料查找，发现腾讯有个人脸变换的功能，经过测试后，发现就是我想要的功能，而且效果还不错，关键是每个月有 1000 次的免费额度，这就很香了。三种转换模式就是 3000 次，白嫖不香么 😏，白嫖腾讯这就更香了，哈哈。&lt;/p&gt;
+
+&lt;p&gt;如果你说你的微信没法登陆网页版微信，没关系&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wechaty-puppet-wechat&lt;/code&gt;协议是基于 UOS 桌面版的，新账号也可以用的。&lt;/p&gt;
+
+&lt;h2 id=&quot;实现功能&quot;&gt;实现功能：&lt;/h2&gt;
+
+&lt;p&gt;私聊和群内都可以实现照片特效&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;多轮交互式对话实现
+    &lt;ul&gt;
+      &lt;li&gt;人脸照片动漫化&lt;/li&gt;
+      &lt;li&gt;人脸年龄变化&lt;/li&gt;
+      &lt;li&gt;人脸性别转换&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;效果展示&quot;&gt;效果展示&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/08-wechaty-face-carton/picall.webp&quot; alt=&quot;效果展示&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;准备腾讯云账号&quot;&gt;准备腾讯云账号&lt;/h2&gt;
+
+&lt;h3 id=&quot;开通照片转换功能&quot;&gt;开通照片转换功能&lt;/h3&gt;
+
+&lt;p&gt;登录&lt;a href=&quot;https://curl.qcloud.com/ZtRitpvH&quot;&gt;腾讯云&lt;/a&gt;账号，没有就直接 QQ 登录，直接点击管理控制台开通即可，不用付费，也不用选资源包，开通后自动有每个月 1000 次的免费额度，如果自己和朋友玩完全足够了。如果你是想活跃社群或者土豪，就随便充值了&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/08-wechaty-face-carton/tencent.webp&quot; alt=&quot;腾讯云&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;获取腾讯的-secretid-和-secretkey&quot;&gt;获取腾讯的 secretid 和 secretkey&lt;/h3&gt;
+
+&lt;p&gt;访问此页面&lt;a href=&quot;https://console.cloud.tencent.com/cam/capi&quot;&gt;https://console.cloud.tencent.com/cam/capi&lt;/a&gt;获取你的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;secretid&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;secretkey&lt;/code&gt;,配置插件的时候需要用的到&lt;/p&gt;
+
+&lt;h2 id=&quot;使用步骤&quot;&gt;使用步骤&lt;/h2&gt;
+
+&lt;h3 id=&quot;1初始化项目&quot;&gt;1、初始化项目&lt;/h3&gt;
+
+&lt;p&gt;node环境需要自己配置一下，node&amp;gt;=14，。新建一个文件夹&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;face-carton&lt;/code&gt;，在文件夹内部执行&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm init&lt;/code&gt;，一路回车即可&lt;/p&gt;
+
+&lt;h3 id=&quot;2安装头像转化插件和-wechaty&quot;&gt;2、安装头像转化插件和 Wechaty&lt;/h3&gt;
+
+&lt;p&gt;这里说明一下，头像转化插件&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wechaty-face-carton&lt;/code&gt;就是我这次做的主要功能，已经开源在&lt;a href=&quot;https://github.com/leochen-g/wechaty-face-carton&quot;&gt;github&lt;/a&gt;，由于已经发布到npm，所以这里你只需要安装就可以使用了，对于不关心代码的童鞋，直接安装使用就行了。如果想知道代码怎么实现的，可以到github仓库查看一下源码。&lt;/p&gt;
+
+&lt;p&gt;配置 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm&lt;/code&gt; 源为淘宝源（重要，因为需要安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chromium&lt;/code&gt;，不配置的话下载会失败或者速度很慢，因为这个玩意 140M 左右）&lt;/p&gt;
+
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;npm config set registry https://registry.npm.taobao.org
+npm config set disturl https://npm.taobao.org/dist
+npm config set puppeteer_download_host https://npm.taobao.org/mirrors
+
+npm install wechaty wechaty-face-carton wechaty-puppet-wechat --save
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3主要代码不超过20行&quot;&gt;3、主要代码（不超过20行）&lt;/h3&gt;
+
+&lt;p&gt;index.js&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Wechaty&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;wechaty&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;WechatyFaceCartonPlugin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;wechaty-face-carton&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;wechat-carton&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Wechaty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;puppet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;wechaty-puppet-wechat&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;bot&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;WechatyFaceCartonPlugin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;maxuser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 支持最多多少人进行对话，建议不要设置太多，否则占用内存会增加&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;secretId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;腾讯secretId&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 腾讯secretId&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;secretKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;腾讯secretKey&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 腾讯secretKey&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;allowUser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Leo_chen&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 允许哪些好友使用人像漫画化功能，为空[]代表所有人开启&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;allowRoom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;测试1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 允许哪些群使用人像漫画化功能，为空[]代表不开启任何一个群&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;quickModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 快速体验模式 默认关闭 开启后可直接生成二维码扫描体验，如果自己代码有登录逻辑可以不配置此项&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;tipsword&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;卡通&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 私聊发送消息，触发照片卡通化提示 如果直接发送图片，默认进入图片卡通化功能，不填则当用户初次发送文字消息时不做任何处理&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;参数说明&quot;&gt;参数说明&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;参数名&lt;/th&gt;
+      &lt;th&gt;必填&lt;/th&gt;
+      &lt;th&gt;默认值&lt;/th&gt;
+      &lt;th&gt;说明&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;maxuser&lt;/td&gt;
+      &lt;td&gt;否&lt;/td&gt;
+      &lt;td&gt;20&lt;/td&gt;
+      &lt;td&gt;支持最多多少人进行对话，建议不要设置太多，否则占用内存会增加&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;secretId:&lt;/td&gt;
+      &lt;td&gt;是&lt;/td&gt;
+      &lt;td&gt;’’&lt;/td&gt;
+      &lt;td&gt;腾讯 secretId&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;secretKey&lt;/td&gt;
+      &lt;td&gt;是&lt;/td&gt;
+      &lt;td&gt;’’&lt;/td&gt;
+      &lt;td&gt;腾讯 secretKey&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;allowUser&lt;/td&gt;
+      &lt;td&gt;否&lt;/td&gt;
+      &lt;td&gt;[]&lt;/td&gt;
+      &lt;td&gt;允许哪些好友使用人像漫画化功能，为空[]代表所有人开启&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;allowRoom&lt;/td&gt;
+      &lt;td&gt;否&lt;/td&gt;
+      &lt;td&gt;[]&lt;/td&gt;
+      &lt;td&gt;允许哪些群使用人像漫画化功能，为空[]代表不开启任何一个群&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;quickModel&lt;/td&gt;
+      &lt;td&gt;否&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+      &lt;td&gt;快速体验模式 默认关闭 开启后可直接生成二维码扫描体验，如果自己代码有登录逻辑可以不配置此项，如果是单独使用此插件，建议开启&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;tipsword&lt;/td&gt;
+      &lt;td&gt;否&lt;/td&gt;
+      &lt;td&gt;‘卡通’&lt;/td&gt;
+      &lt;td&gt;私聊发送消息，触发照片卡通化提示。如果直接发送图片，默认进入图片卡通化功能，不填则当用户初次发送文字消息时不做任何处理，建议填写触发关键词&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;4运行&quot;&gt;4、运行&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;node index.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;扫码登录后，给小助手发送图片，即可转化图片，对于不能转化的图片，小助手会给出原因&lt;/p&gt;
+
+&lt;h2 id=&quot;docker运行&quot;&gt;docker运行&lt;/h2&gt;
+
+&lt;h3 id=&quot;1新建dockerfile&quot;&gt;1、新建Dockerfile&lt;/h3&gt;
+
+&lt;p&gt;如果遇到过多的环境问题让你非常苦恼，你也可以在以上第三步完成后，根目录新建一个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Dockerfile&lt;/code&gt;文件，里面填入内容，对！就一行就行！&lt;/p&gt;
+
+&lt;div class=&quot;language-docker highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; wechaty/onbuild&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2build镜像&quot;&gt;2、build镜像&lt;/h3&gt;
+
+&lt;p&gt;完成后就可以直接build镜像&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker build &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; wechaty-carton &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3运行镜像&quot;&gt;3、运行镜像&lt;/h3&gt;
+
+&lt;p&gt;build完成后就可以直接run后扫码了&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run wechaty-carton
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;注意&quot;&gt;注意&lt;/h2&gt;
+
+&lt;p&gt;要注意一下，不要把额度用超了，用超了就不能用了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;历史文章&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/2020/05/31/wechaty-web-panel-plugin/&quot;&gt;wechaty-web-panel可视化插件&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/2019/06/21/three-step-get-girlfriend/&quot;&gt;三步教你用Node做一个微信脱单神器，小白可上手&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/2021/04/13/wechaty-uos-web/&quot;&gt;重磅：使用UOS微信桌面版协议登录，wechaty免费版web协议重放荣光&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;作者: &lt;a href=&quot;https://github.com/leochen-g/&quot;&gt;Leo_chen&lt;/a&gt;，全栈工程师，喜欢使用node做各种项目&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>leochen-g</name></author><category term="article" /><category term="code" /><category term="face-carton" /><category term="plugin" /><summary type="html">Wechaty 人像转换插件，让你的 Wechaty 机器人实现照片卡通化，年龄变化，性别变化等功能。之前有看到过一些机器学习视频，可以把照片漫画化，感觉很有意思，就想着能不能结合 Wechaty 做一个可以自动返回动漫化照片的机器人。经过一番资料查找，发现腾讯有个人脸变换的功能，经过测试后，发现就是我想要的功能，而且效果还不错，关键是每个月有 1000 次的免费额度，这就很香了。三种转换模式就是 3000 次，白嫖不香么 😏，白嫖腾讯这就更香了，哈哈。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/08-wechaty-face-carton/main.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/08-wechaty-face-carton/main.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The community matrix server is online!</title><link href="https://wechaty.js.org/2021/08/12/the-matrix-server-of-wechaty/" rel="alternate" type="text/html" title="The community matrix server is online!" /><published>2021-08-12T00:00:00+00:00</published><updated>2021-08-12T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/08/12/the-matrix-server-of-wechaty</id><content type="html" xml:base="https://wechaty.js.org/2021/08/12/the-matrix-server-of-wechaty/">&lt;h2 id=&quot;about-matrix&quot;&gt;About Matrix&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://matrix.org/&quot;&gt;Matrix&lt;/a&gt; is a secure and distributed open source chat network that can provide us with communication functions similar to most social software. With complete message encryption, identity authentication and other security functions , Matrix also supports cross-server communication; At the same time, the Matrix community also provides multiple sets of clients, as well as plug-ins such as video chat, voice chat, SSO, system monitor, and user management. Matrix is a powerful open source social server, which is very suitable as a communication tool for the open source community.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-community-matrix-server-is-online&quot;&gt;The community matrix server is online&lt;/h2&gt;
+
+&lt;p&gt;Thanks to Mr. Eric Migicovsky (the founder of &lt;a href=&quot;https://www.beeper.com/&quot;&gt;Beeper.com&lt;/a&gt;) for his support and sponsorship, the Matrix server of the Wechaty community has been launched on August 12, 2021, mainly for community members and Wechaty users communicate online.&lt;/p&gt;
+
+&lt;p&gt;The server currently supports github account login (recommended), opens the invitation-free registration function, provides basic chat functions and voice and video conversation functions, and supports communication with other matrix server accounts.&lt;/p&gt;
+
+&lt;p&gt;The Matrix server address is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matrix.wechaty.tk&lt;/code&gt;, it is recommended to access through the &lt;a href=&quot;https://matrix.org/docs/projects/try-matrix-now.html#clients&quot;&gt;matrix client&lt;/a&gt; such as &lt;a href=&quot;https://element.io/get-started/&quot;&gt;element&lt;/a&gt;, you can also log in directly through the &lt;a href=&quot;https://element.wechaty.tk/#/login&quot;&gt;web client&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Welcome everyone to pay attention to the &lt;a href=&quot;https://github.com/wechaty/matrix-appservice-wechaty&quot;&gt;matrix-appservice-wechaty project&lt;/a&gt; of our community, this project can help users accept the message from various social applications (such as WeChat, Wecom, Lark, etc.) supported by wechaty in a private matrix server， can currently be quickly deployed through the scripts on &lt;a href=&quot;https://github.com/lprintf/easy-matrix-wechaty&quot;&gt;easy-matrix-wechaty project&lt;/a&gt;. We will take every issue raised on these projects seriously. You are also welcome to pay attention to the &lt;a href=&quot;https://www.beeper.com/&quot;&gt;Beeper.com&lt;/a&gt; application, which supports receiving messages from common social applications on the market (such as Whatsapp, Facebook, etc.) in one application.&lt;/p&gt;
+
+&lt;h2 id=&quot;matters-needing-attention&quot;&gt;Matters needing attention&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The home room of the wechaty community is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#home:wechaty.tk&lt;/code&gt;, welcome the users from other matrix server to join it;&lt;/li&gt;
+  &lt;li&gt;The server does not enable Google human verification, please do not use robots to frequently request;&lt;/li&gt;
+  &lt;li&gt;The server is prohibited from being used for illegal purposes, and the community reserves the right to monitor unencrypted chat rooms;&lt;/li&gt;
+  &lt;li&gt;The community will warn or ban users who violate the rules.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;matrix简介&quot;&gt;Matrix简介&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://matrix.org/&quot;&gt;Matrix&lt;/a&gt;是一套安全的分布式的开源聊天网络，可以为我们提供和大多数社交软件类似的通讯功能，拥有完善的消息加密，身份认证等安全功能，支持跨服务器通讯；同时Matrix社区还提供了多套客户端，以及视频、语音聊天，第三方登录，系统监控，用户管理等插件。Matrix是一套功能强大的开源社交服务器，很适合作为开源社区的通讯工具。&lt;/p&gt;
+
+&lt;h2 id=&quot;社区matrix服务器的上线&quot;&gt;社区Matrix服务器的上线&lt;/h2&gt;
+
+&lt;p&gt;感谢Eric Migicovsky(the founder of &lt;a href=&quot;https://www.beeper.com/&quot;&gt;Beeper.com&lt;/a&gt;)的赞助，Wechaty社区的Matrix服务器已在2021年8月12号正式上线，主要供社区成员及wechaty使用者线上交流沟通使用。&lt;/p&gt;
+
+&lt;p&gt;该服务器目前支持github账号登录（推荐方式），开放免邀请的注册功能，提供基本聊天功能和语音、视频会话功能，支持与其他matrix服务器的账号进行交流。&lt;/p&gt;
+
+&lt;p&gt;该Matrix服务器地址为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matrix.wechaty.tk&lt;/code&gt;，推荐通过&lt;a href=&quot;https://matrix.org/docs/projects/try-matrix-now.html#clients&quot;&gt;matrix客户端&lt;/a&gt;如&lt;a href=&quot;https://element.io/get-started&quot;&gt;element&lt;/a&gt;访问,也可通过&lt;a href=&quot;https://element.wechaty.tk/#/login&quot;&gt;网页客户端&lt;/a&gt;直接登录。&lt;/p&gt;
+
+&lt;p&gt;欢迎大家关注社区的&lt;a href=&quot;https://github.com/wechaty/matrix-appservice-wechaty&quot;&gt;matrix-appservice-wechaty项目&lt;/a&gt;,该项目可帮助用户在私有matrix服务器中接受各种wechaty能支持的应用的消息（如：微信，企业微信，飞书等），目前可通过&lt;a href=&quot;https://github.com/lprintf/easy-matrix-wechaty&quot;&gt;easy-matrix-wechaty项目&lt;/a&gt;中的脚本快速部署体验。我们会认真对待大家在这些项目中提出的每一个issue。也欢迎大家关注&lt;a href=&quot;https://www.beeper.com/&quot;&gt;Beeper.com&lt;/a&gt;应用，支持在一个应用内接收市面上常见应用的消息（如：Whatsapp，Facebook等）。&lt;/p&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;社区公共聊天室账号是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#home:wechaty.tk&lt;/code&gt;，欢迎其他matrix服务器的用户加入我们；&lt;/li&gt;
+  &lt;li&gt;为方便境内网络环境访问，该服务器未开启Google人类验证，请勿使用机器人频繁请求；&lt;/li&gt;
+  &lt;li&gt;该服务器禁止用于非法用途，社区保留对未加密聊天室的监控权利；&lt;/li&gt;
+  &lt;li&gt;社区会对违规用户进行警告或封号处理。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>lprintf</name></author><category term="announcement" /><category term="matrix" /><summary type="html">About Matrix</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/08-the-matrix-server-of-wechaty/wechaty-matrix.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/08-the-matrix-server-of-wechaty/wechaty-matrix.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Docker Open Source Program ❤️ Wechaty</title><link href="https://wechaty.js.org/2021/08/10/docker-open-source-program/" rel="alternate" type="text/html" title="Docker Open Source Program ❤️ Wechaty" /><published>2021-08-10T00:00:00+00:00</published><updated>2021-08-10T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/08/10/docker-open-source-program</id><content type="html" xml:base="https://wechaty.js.org/2021/08/10/docker-open-source-program/">&lt;p&gt;In November, 2020, Docker announced the launch of a special program to expand our support for Open Source projects that use Docker. The eligible projects that meet the program’s requirements (ie. they must be open source and non-commercial) can request to have their respective OSS namespaces allowlisted and see their data-storage and data-egress restrictions lifted.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tweet: Docker has created a special program for Open Source projects to get continued free access and freedom from restrictions for their communities and their users. (&lt;a href=&quot;https://twitter.com/Docker/status/1323391404551393280&quot;&gt;link&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;open-source-project-qualification-criteria&quot;&gt;Open Source Project Qualification Criteria&lt;/h2&gt;
+
+&lt;p&gt;To qualify for the Open Source Program status, all the repos within the Publisher’s Docker namespace must:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Be public and non-commercial&lt;/li&gt;
+  &lt;li&gt;Meet the Open Source Initiative (OSI) definition (shown &lt;a href=&quot;https://opensource.org/docs/osd&quot;&gt;here&lt;/a&gt;), including definitions for free distribution, source code, derived works, integrity of source code, licensing and no tolerance for discrimination&lt;/li&gt;
+  &lt;li&gt;Distribute images under &lt;a href=&quot;https://opensource.org/licenses/alphabetical&quot;&gt;OSI approved open source license&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Produce Docker images used to run applications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wechaty-joined-docker-open-source-program&quot;&gt;Wechaty joined Docker Open Source Program&lt;/h2&gt;
+
+&lt;p&gt;The Wechaty open-source project is very glad to announce that we has been accepted by the &lt;a href=&quot;https://www.docker.com/blog/supporting-open-source-projects-at-docker/&quot;&gt;Docker Open Source Program&lt;/a&gt; today, as one of hundreds of non-profit organizations from the four corners of the world in this program, we will be having supported by the Docker and none of the following egress restrictions will apply to any Docker users pulling images from our approved OSS namespaces:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unauthenticated users will be restricted to 100 pulls every 6 hours&lt;/li&gt;
+  &lt;li&gt;Authenticated free users will be restricted to 200 pulls every 6 hours&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;letter-from-docker-to-wechaty&quot;&gt;Letter from Docker to Wechaty&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Welcome to the Docker Open Source Program!  We are very excited to have you as a part of our great community.  We have allow-listed your namespace “Wechaty” and this should come into effect in the next week or so. With this allowed-listing, the Docker data pull rate policies that went into effect last November, will not apply to the users pulling images from your namespace.&lt;/p&gt;
+
+  &lt;p&gt;— Aurelien Suarez, Docker Marketing Team.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Through this program, Docker remains committed to providing a platform where the non-commercial open source developers can continue collaborating, innovating and pushing this industry into new directions.&lt;/p&gt;
+
+&lt;p&gt;Thank you Docker!&lt;/p&gt;
+
+&lt;p&gt;Related links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.docker.com/blog/expanded-support-for-open-source-software-projects/&quot;&gt;Expanded Support for Open Source Software Projects, Marina Kvitnitsky, Nov 02 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.docker.com/blog/supporting-open-source-projects-at-docker/&quot;&gt;Docker Open Source Program&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.docker.com/blog/supporting-open-source-projects-at-docker/&quot;&gt;Supporting Open Source Projects at Docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>huan</name></author><category term="announcement" /><category term="docker" /><category term="program" /><category term="news" /><summary type="html">In November, 2020, Docker announced the launch of a special program to expand our support for Open Source projects that use Docker. The eligible projects that meet the program’s requirements (ie. they must be open source and non-commercial) can request to have their respective OSS namespaces allowlisted and see their data-storage and data-egress restrictions lifted.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/08-docker-open-source-program/docker-wechaty-osp.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/08-docker-open-source-program/docker-wechaty-osp.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">使用 VS Code 调试 Node.js 应用</title><link href="https://wechaty.js.org/2021/08/08/vscode-debug-nodejs/" rel="alternate" type="text/html" title="使用 VS Code 调试 Node.js 应用" /><published>2021-08-08T00:00:00+00:00</published><updated>2021-08-08T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/08/08/vscode-debug-nodejs</id><content type="html" xml:base="https://wechaty.js.org/2021/08/08/vscode-debug-nodejs/">&lt;p&gt;「暑期 2021」活动中，我为 Wechaty 开发命令行环境下的客户端 &lt;a href=&quot;https://github.com/wechaty/cli&quot;&gt;wechaty-cli&lt;/a&gt;，使用 &lt;a href=&quot;https://github.com/chjj/blessed&quot;&gt;blessed&lt;/a&gt; 这个终端图形化组件库可以轻松做出炫酷的仿 IRC 聊天软件，原以为只需调库即可完成任务，但事情远没有那么简单…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/08-vscode-debug-nodejs/error.webp&quot; alt=&quot;error&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在我点击联系人列表时，应用瞬间崩溃，终端上只留下 npm 的常规报错，翻看对应日志也没有任何有效信息，这意味着没有明确的错误关键字可以一步到位地搜索，针对这种问题，我尝试按以下步骤解决：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;直接 Google 项目名称和场景，如 “blessed js crash”，但很可惜并没有任何有效结果，翻遍了 &lt;a href=&quot;https://stackoverflow.com/questions/tagged/blessed&quot;&gt;Stack OverFlow&lt;/a&gt; 上所有 blessed 相关问题都没有和我相同的情况。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;浏览 GitHub 原项目的 Issues 和 Pull Requests，比如我用到了 &lt;a href=&quot;https://github.com/yaronn/blessed-contrib#tree&quot;&gt;blessed-contrib&lt;/a&gt; 中的 Tree 组件，就可以搜索 Tree 相关的讨论，但很可惜仍然没有结果。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;尝试 catch 错误并输出，但因为 blessed 相当于在原来的终端之上加了一层， &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;console.log(error)&lt;/code&gt; 这种常见做法行不通了，而且我也根本不知道在哪 catch。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;找不到报错信息，已经开始怀疑是自己的问题，仔细检查了一遍代码并严格使用 TypeScript 声明了类型，确保与文档描述一致，但错误仍旧。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;寻找使用同一个库同一个组件的代码，与自己的代码相比较，尝试从不同之处上找出崩溃原因所在。但全网使用 Tree 组件的项目半只手都数得过来，而且基本就是沿用了样例代码中实现的 File Explorer，找不出代码的问题。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;自己实在无法解决，可以在各种网站或交流群提问，但即使能提供详细的上下文信息，也不一定有人能够解答，毕竟终端命令行软件本就是小众领域，使用过 blessed 的人更可以说寥寥无几。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;总之，因为 blessed 实在有些冷门而且年久失修，在网络上无法找到所需的信息，我必须要独自面对一个没有人遇到过的问题，可我却连崩溃产生的原因都不清楚。难道我要一行行翻源码，脑补运行过程并人工审计代码？这显然不现实，所以只有通过调试，才能细致入微地理解程序的运行过程，从而找到问题所在。&lt;/p&gt;
+
+&lt;h2 id=&quot;vs-code-调试简介&quot;&gt;VS Code 调试简介&lt;/h2&gt;
+
+&lt;p&gt;VS Code 可能是前端领域现下最流行的开发工具，本文我们就以 VS Code 为例讲解调试的方法。&lt;/p&gt;
+
+&lt;p&gt;作为一个文本编辑器，VS Code 也提供了运行和调试的功能，但和其他一键运行的 IDE 不同，编辑器可不知道要运行何种程序，调试的功能也要安装插件来获得，所以自行配置文件是免不了的。即使是同一种编程语言，开发环境和运行方式上也可能会有差异，网上搜索到的现成配置文件不尽相同，盲目照抄往往会出现各种千奇百怪的报错，如果时间允许推荐阅读&lt;a href=&quot;https://code.visualstudio.com/docs/nodejs/nodejs-debugging&quot;&gt;官方文档&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;如果你此前没有进行过调试运行的配置，只需点击上方菜单栏 -&amp;gt; Run -&amp;gt; Add Configuration，并在弹出的框中选择 Node.js，就会自动在工作区内创建 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.vscode/launch.json&lt;/code&gt; 这个文件并打开，生成如下内容：&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;Use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;IntelliSense&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;learn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;possible&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;attributes.&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;Hover&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;view&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;descriptions&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;existing&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;attributes.&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;For&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;more&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;information&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;visit:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;https://go.microsoft.com/fwlink/?linkid=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;830387&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;0.2.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;configurations&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+   &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;pwa-node&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+   &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;request&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;launch&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+   &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Launch Program&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+   &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;skipFiles&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;node_internals&amp;gt;/**&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+   &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;program&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;${file}&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;配置文件是 JSON 格式，鼠标悬浮到键名上会出现相应的提示，不过参数太多也不一定都用得到，这里我们只关注能让项目运行起来的参数，很明显就是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;program&lt;/code&gt; 制定了文件路径，比如我们如果使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node index.js&lt;/code&gt; 启动项目，那么 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;program&lt;/code&gt; 填 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.js&lt;/code&gt; 就可以。&lt;/p&gt;
+
+&lt;p&gt;但我的项目是用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ts-node&lt;/code&gt; 直接运行的，并没有编译好的 js 文件，直接填写 ts 文件明显会失败，于是我 Google 搜索了 “ts-node debug”，出来的前两条结果中的配置文件都过于复杂，添加了很多参数，其实只需要加上 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;runtimeExecutable&quot;: &quot;ts-node&quot;&lt;/code&gt; 就够了。&lt;/p&gt;
+
+&lt;p&gt;除了这一种配置，VS Code 还为我们提供了许多配置模板，再次点击 Add Configuration 或者在编辑状态按下 “Ctrl+Space”，会出现一长串配置列表，比如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Node.js: Launch via NPM&lt;/code&gt; 是通过像 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm start&lt;/code&gt; 这样的命令来运行项目的，这样做的好处是具体代码文件位置或名称改动不会影响调试运行。&lt;/p&gt;
+
+&lt;p&gt;不过对于某些需要与用户交互的程序，比如使用 blessed 开发的终端图形界面程序，这样启动默认是在 VS Code 内置的 Debug Console 中执行，无法接受输入，需要添加 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;console&lt;/code&gt; 属性设为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;integratedTerminal&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;externalTerminal&lt;/code&gt;，分别是在 VS Code 自带的 Terminal 中或用户设置的外部 Terminal 中执行，配置文件如下：&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Lanch via NPM&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;request&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;launch&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;runtimeArgs&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;start&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;runtimeExecutable&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;npm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;skipFiles&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;node_internals&amp;gt;/**&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;pwa-node&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;console&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;integratedTerminal&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;细心的小伙伴可能已经发现，上述配置文件的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;request&lt;/code&gt; 参数都设置为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;launch&lt;/code&gt;，这意味着 VS Code 会直接启动程序并调试，和其他一键运行的 IDE 一样方便，不过有些时候我们仅仅需要调试而不想连带着捆绑启动的配置，所以 VS Code 也提供了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;attach&lt;/code&gt; 模式，是对已经打开的程序进行调试。比如模板中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Node.js: Attach&lt;/code&gt; 配置如下：&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Attach&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;port&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9229&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;request&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;attach&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;skipFiles&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;node_internals&amp;gt;/**&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;pwa-node&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;要调试 Node.js 应用程序，只需执行形如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node --inspect-brk program.js&lt;/code&gt; 命令，程序会在默认的 9229 端口等待调试器接入，在 VS Code 中点击开始调试后就会运行。对于用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ts-node&lt;/code&gt; 执行的命令，则要以形如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node --nolazy --inspect-brk=9229 -r ts-node/register program.ts&lt;/code&gt; 的方式运行。&lt;/p&gt;
+
+&lt;p&gt;如果嫌使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--inspect&lt;/code&gt; 参数麻烦，使用模板配置 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Node.js: Attach by Process ID&lt;/code&gt; 则会自动弹出方框来选择对应正在运行的 Node.js 进程。如果连动动小手选择都不愿意，VS Code 还推出了 &lt;a href=&quot;https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_auto-attach&quot;&gt;Auto Attach&lt;/a&gt; 功能，按下 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl+Shift+P&lt;/code&gt; 输入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Toggle Auto Attach&lt;/code&gt;，选择 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;smart&lt;/code&gt; 模式，则只需在 VS Code 自带终端中执行 Node.js 程序，无需任何配置，VS Code 就会 Attach 你的程序并进行调试了。&lt;/p&gt;
+
+&lt;h2 id=&quot;栈溢出调试实战&quot;&gt;栈溢出调试实战&lt;/h2&gt;
+
+&lt;p&gt;介绍完了 VS Code 调试的基本配置，就可以来尝试解决文章最初遇到的问题了，直接开始调试并重现崩溃场景，程序退出后 Debug Console 中还能看到错误信息：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-log&quot;&gt;RangeError: Maximum call stack size exceeded
+at List.focus (cli/node_modules/blessed/lib/widgets/element.js:329:30)
+at Tree.render (cli/node_modules/blessed-contrib/lib/widget/tree.js:152:52)
+at cli/node_modules/blessed/lib/widgets/screen.js:738:8
+at Array.forEach (&amp;lt;anonymous&amp;gt;)
+at Screen.render (cli/node_modules/blessed/lib/widgets/screen.js:735:17)
+at reposition (cli/node_modules/blessed/lib/widgets/element.js:968:17)
+at Tree._labelScroll (cli/node_modules/blessed/lib/widgets/element.js:972:5)
+at Tree._emit (cli/node_modules/blessed/lib/events.js:94:20)
+at Tree.emit (cli/node_modules/blessed/lib/events.js:117:12)
+at Tree.scroll (cli/node_modules/blessed/lib/widgets/scrollablebox.js:274:17)
+at Tree.&amp;lt;anonymous&amp;gt; (cli/node_modules/blessed/lib/widgets/scrollablebox.js:222:8)
+at Screen._focus (cli/node_modules/blessed/lib/widgets/screen.js:1680:10)
+at Screen.focusPush (cli/node_modules/blessed/lib/widgets/screen.js:1620:8)
+at Screen.focused (cli/node_modules/blessed/lib/widgets/screen.js:1697:15)
+at List.focus (cli/node_modules/blessed/lib/widgets/element.js:329:30)
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;一下子就找到了问题的根源，应用本身的代码应该没有问题，而是在 blessed 库内部的代码中产生了无限循环，那么就可以在相应位置设下断点，观察代码执行顺序和变量值的变化，耐心地分析无限循环产生的原因。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/08-vscode-debug-nodejs/debug.webp&quot; alt=&quot;debug&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如图所示，在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tree.js&lt;/code&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Tree.prototye.render&lt;/code&gt; 这一函数中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if (this.screen.focused === this.rows) this.rows.focus();&lt;/code&gt; 这一语句可能导致 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Tree.render()&lt;/code&gt; 会调用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this.rows.focus()&lt;/code&gt;，将鼠标悬浮至 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this.screen.focused&lt;/code&gt; 发现与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this.rows&lt;/code&gt; 为同一对象，这是无限循环上的一个环节，如果注释掉此行再运行便不再有崩溃了。不过此行代码或许起着必要的作用，不敢轻易删除，最终还是更改了应用的代码，在另一处上破坏了循环继续的条件，详情可见 &lt;a href=&quot;https://github.com/wechaty/cli/pull/13&quot;&gt;wechaty/cli#13&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;扩展阅读&quot;&gt;扩展阅读&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com/blogs/2018/07/12/introducing-logpoints-and-auto-attach&quot;&gt;Introducing Logpoints and auto-attach&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.barretlee.com/blog/2019/03/18/debugging-in-vscode-tutorial/&quot;&gt;VSCode 调试中 launch.json 配置不完全指南&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.barretlee.com/blog/2015/10/07/debug-nodejs-in-command-line/&quot;&gt;NodeJS的代码调试和性能调优&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/7PNE3nBhpQOTN4stChvWzQ&quot;&gt;写 Node.js 代码，从学会调试开始&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Author:&lt;a href=&quot;https://github.com/chinggg&quot;&gt;@chinggg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>chinggg</name></author><category term="article" /><category term="tutorial" /><category term="code" /><category term="debug" /><category term="nodejs" /><summary type="html">「暑期 2021」活动中，我为 Wechaty 开发命令行环境下的客户端 wechaty-cli，使用 blessed 这个终端图形化组件库可以轻松做出炫酷的仿 IRC 聊天软件，原以为只需调库即可完成任务，但事情远没有那么简单…</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/08-vscode-debug-nodejs/debug.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/08-vscode-debug-nodejs/debug.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">GSoD’21 Seventh Meeting</title><link href="https://wechaty.js.org/2021/08/01/gsod-2021-seventh-meeting/" rel="alternate" type="text/html" title="GSoD’21 Seventh Meeting" /><published>2021-08-01T00:00:00+00:00</published><updated>2021-08-01T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/08/01/gsod-2021-seventh-meeting</id><content type="html" xml:base="https://wechaty.js.org/2021/08/01/gsod-2021-seventh-meeting/">&lt;h2 id=&quot;google-season-of-docs21-seventh-meeting&quot;&gt;Google Season of Docs’21 seventh meeting&lt;/h2&gt;
+
+&lt;h3 id=&quot;meeting-summary&quot;&gt;Meeting Summary&lt;/h3&gt;
+
+&lt;p&gt;It was the seventh meeting of the GSoD’21 participants. Firstly every participant gave one’s weekly summary and informed the community
+ about their plans for the upcoming week, volunteers and tech writers discussed while tech writers were giving their week summaries.
+ We discussed contrast levels in the new landing page, and Rajiv helped Sajen troubleshoot an issue. Later we discussed comments and
+  questions of the participants, and at last, we took a lovely group photo.&lt;/p&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/gGSVsTww6e8&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;attendees&quot;&gt;Attendees&lt;/h3&gt;
+
+&lt;p&gt;Total 12 attendees attended the meeting. They are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rohitesh Jain, Volunteer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Sajen Sarvajith, Reconstruct Landing page writer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Abhishek Jaiswal, How-to-guide section writer (UTC + 05:30)&lt;/li&gt;
+  &lt;li&gt;Simin Liao, Volunteer (+8:00)&lt;/li&gt;
+  &lt;li&gt;Mukosa Joseph Mawa, Introductions and Explanations section writer (UTC +03:00)&lt;/li&gt;
+  &lt;li&gt;Rajiv Ranjan Singh, Improve the gRPC and OpenAPI ecosystem writer, rajivperfect007@gmail.com, (UTC+05:30)&lt;/li&gt;
+  &lt;li&gt;Souvik Biswas, Create easy to learn tutorials for beginner users writer, sbis1999@gmail.com (UTC +05:30)&lt;/li&gt;
+  &lt;li&gt;Shraddha, Improve References section writer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Shwetal Soni, Create easy to learn tutorials for beginners users writer (UTC +05:30)&lt;/li&gt;
+  &lt;li&gt;Arnab Saha, Reconstruction of Landing page with value propositions writer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Chris Estepa,  Introduction and Explanations sections writer (UTC +08:00)&lt;/li&gt;
+  &lt;li&gt;Soumi Bardhan, Improve References section writer (UTC + 5:30)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Note: Meeting started on schedule, Vasvi missed the meeting&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/08-gsod-2021-seventh-meeting/gsod-seventh-meeting.webp&quot; alt=&quot;Google Season of Docs 2021: Wechaty GSoD'21 Group Photo&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;agendas&quot;&gt;Agendas&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gGSVsTww6e8&quot;&gt;00:00&lt;/a&gt; 0. Introduction &amp;amp; Welcome&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gGSVsTww6e8?t=28&quot;&gt;00:28&lt;/a&gt; 1. Discussion with Tutorials team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gGSVsTww6e8?t=210&quot;&gt;03:30&lt;/a&gt; 2. Discussion with Introduction and explanation team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gGSVsTww6e8?t=265&quot;&gt;04:25&lt;/a&gt; 3. Discussion with Landing page team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gGSVsTww6e8?t=822&quot;&gt;13:42&lt;/a&gt; 4. Discussion with References section team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gGSVsTww6e8?t=950&quot;&gt;15:50&lt;/a&gt; 5. Discussion with How to guides team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gGSVsTww6e8?t=1012&quot;&gt;16:52&lt;/a&gt; 6. Discussion with gRPC team&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gGSVsTww6e8?t=1080&quot;&gt;18:00&lt;/a&gt; 7. Questions/comments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can learn more from our &lt;a href=&quot;https://docs.google.com/document/d/1fVCk8qRYc4RKGMf2UY5HOe07hEhPUOpGC34v88GEFJg/edit#heading=h.edr3nzd8l43b&quot;&gt;meeting notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;meeting-outcomes&quot;&gt;Meeting Outcomes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The community got to know about the progress and plans of the members&lt;/li&gt;
+  &lt;li&gt;We had a discussion on landing page contrast, and it’s decided that we will increase the contrast&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;meeting-follow-ups&quot;&gt;Meeting Follow-ups&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Review pending PRs&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>rohitesh-kumar-jain</name></author><category term="gsod" /><category term="google" /><category term="gsod" /><category term="event" /><category term="gsod-2021" /><category term="2021" /><category term="zoom" /><category term="docs" /><summary type="html">Google Season of Docs’21 seventh meeting</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/08-gsod-2021-seventh-meeting/gsod-seventh-meeting.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/08-gsod-2021-seventh-meeting/gsod-seventh-meeting.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wechaty 社区 &amp;amp; 硬核桃社区：大学生玩转5G消息？So Easy！</title><link href="https://wechaty.js.org/2021/07/30/walnut-5g-press/" rel="alternate" type="text/html" title="Wechaty 社区 &amp;amp; 硬核桃社区：大学生玩转5G消息？So Easy！" /><published>2021-07-30T00:00:00+00:00</published><updated>2021-07-30T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/07/30/walnut-5g-press</id><content type="html" xml:base="https://wechaty.js.org/2021/07/30/walnut-5g-press/">&lt;blockquote&gt;
+  &lt;p&gt;近期 硬核桃社区开展了一场面向在校大学生的开发者活动。
+硬核桃@钢铁嘉 IronJia、Wechaty@李卓桓、Wechaty@李佳芮一直在活动中指导学生的开发工作。
+昨天，传来了他们的最新进展——&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“&lt;strong&gt;可以收到！&lt;/strong&gt;”&lt;/p&gt;
+
+&lt;p&gt;大二学生张瑞宁和邵琦在硬核桃社区的环境中成功发出了他们的第一条5G消息。&lt;/p&gt;
+
+&lt;p&gt;他们是“&lt;strong&gt;开源软件供应链点亮计划-暑期2021&lt;/strong&gt;”（以下简称 暑期2021）活动中，参与“&lt;strong&gt;5G Chatbot项目&lt;/strong&gt;”开发的两位学生。&lt;/p&gt;
+
+&lt;p&gt;他们是如何与硬核桃、5G消息结缘的呢？&lt;/p&gt;
+
+&lt;p&gt;这要从一场大学生暑期活动说起。&lt;/p&gt;
+
+&lt;h2 id=&quot;01大学生暑期活动&quot;&gt;01.大学生暑期活动&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-walnut-5g-press/student.webp&quot; alt=&quot;student&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“暑期2021”（&lt;a href=&quot;https://summer.iscas.ac.cn/&quot;&gt;https://summer.iscas.ac.cn/&lt;/a&gt;），由中科院软件所与 openEuler 社区共同举办。&lt;/p&gt;
+
+&lt;p&gt;旨在鼓励在校学生积极参与开源软件的开发维护，促进国内优秀开源软件社区的蓬勃发展。&lt;/p&gt;
+
+&lt;p&gt;活动联合各大开源社区，针对重要开源软件的开发与维护提供项目，面向全球高校学生开放报名。&lt;/p&gt;
+
+&lt;p&gt;学生可自主选择感兴趣的项目进行申请，中选后可获得该软件资深维护者（社区导师）亲自指导的机会。&lt;/p&gt;
+
+&lt;p&gt;根据项目的难易程度和完成情况，参与者还可获取活动奖金和奖杯。&lt;/p&gt;
+
+&lt;h2 id=&quot;025g-chatbot项目&quot;&gt;02.”5G Chatbot项目”&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-walnut-5g-press/walnut-wechaty.webp&quot; alt=&quot;walnut-wechaty&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;此次“暑期2021”活动中的“5G Chatbot项目”，是&lt;strong&gt;硬核桃5G消息开发者社区&lt;/strong&gt;(www.5g-msg.com)与&lt;strong&gt;Wechaty社区&lt;/strong&gt;(wechaty.js.org)首次合作，专为大学生开发者倾力打造的暑期项目。&lt;/p&gt;
+
+&lt;p&gt;希望借此机会吸引社会各界关注5G消息行业发展，培养和发掘更多优秀的大学生开发者参与到5G消息行业中来。&lt;/p&gt;
+
+&lt;p&gt;“5G Chatbot项目”期间，硬核桃社区与Wechaty社区保持紧密合作，积极关注项目进展，帮助学生解决开发中遇到的问题，邀请技术大牛进行分享。&lt;/p&gt;
+
+&lt;p&gt;现阶段，两位大学生开发者已经正式投入“5G Chatbot项目”开发，并成功接入硬核桃5G消息开发环境，进行测试。&lt;/p&gt;
+
+&lt;p&gt;两位学生表示，开发中最大的问题就是5G消息在网上的参考资料很少，刚开始上手很难。但是在硬核桃导师 &lt;strong&gt;@钢铁嘉 IronJia&lt;/strong&gt; 的帮助下，问题很快得到了解决。&lt;/p&gt;
+
+&lt;p&gt;在谈到对5G消息的认识时，学生张瑞宁说，“我觉得5G消息的功能非常强大，不仅支持纯文本消息，还支持图片、音频、视频、定位等富媒体消息，&lt;strong&gt;拓展了传统短信业务的功能，而且使用起来非常便捷。&lt;/strong&gt;”&lt;/p&gt;
+
+&lt;p&gt;“&lt;strong&gt;我们认为5G消息具有广阔的应用前景，所以共同选择了这个项目。&lt;/strong&gt; 5G消息是5G时代的生态级应用，基于GSMA RCS和UP标准构建，具备富媒体化、轻量化、交互化等特质。&lt;strong&gt;5G消息实现原生消息界面一站式线上业务体验，能形成更高效益的引流转化，是一种集成程度更高、可代替App的全新人机交互服务模式&lt;/strong&gt;，将给企业客户带来极高的服务价值。”学生邵琦说。&lt;/p&gt;
+
+&lt;h2 id=&quot;03未来更多的开发者活动&quot;&gt;03.未来，更多的开发者活动&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-walnut-5g-press/future.webp&quot; alt=&quot;future&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;公示的项目报告显示，两位学生从了解接口技术规范，到接入硬核桃环境进行编码和接口测试，再到最后成功进行接收和发送消息的测试&lt;/p&gt;
+
+&lt;p&gt;仅用了短短12天的时间。&lt;/p&gt;
+
+&lt;p&gt;“由于我们开始对服务器不熟悉占用了一些时间，而且暑假了嘛，其他活动也比较多，如果说&lt;strong&gt;实际的代码时间可能也就2个小时&lt;/strong&gt;。”学生邵琦表示。&lt;/p&gt;
+
+&lt;p&gt;短期内，两位学生计划通过 Wechaty 加载 wechaty-puppet-5g-msg 模块，实现一个“ding/dong”功能，接收到文字消息‘ding’时，自动回复消息‘dong’。&lt;/p&gt;
+
+&lt;p&gt;硬核桃导师 &lt;strong&gt;@钢铁嘉 IronJia&lt;/strong&gt; 谈起这次项目过程时说，“学生们对项目非常感兴趣，也非常的积极，技术基础也不错，未来可期。我们也很惊喜，他们可以在这么短的时间内成功使用我们的开发工具，某种程度上也增加了我们对自身产品的信心。希望我们可以帮助更多开发者更好的成长。”&lt;/p&gt;
+
+&lt;p&gt;未来，硬核桃社区还会参与和举办更多开发者活动，打造更多服务5G消息开发者的开发工具。&lt;/p&gt;
+
+&lt;p&gt;欢迎在校师生、Chatbot技术爱好者、各界研究人员参与到5G消息应用的开发中来，共同促进5G消息行业的发展。&lt;/p&gt;
+
+&lt;p&gt;“未来属于青年，希望寄予青年。”&lt;/p&gt;
+
+&lt;p&gt;注：5G Chatbot项目，&lt;a href=&quot;https://wechaty.js.org/2021/07/15/ospp-plan-5g-chatbot-puppet/&quot;&gt;开发支持电信运营商 5G Chatbot/RCS 的 Wechaty 接入 Puppet 模块&lt;/a&gt;，简称 5G Chatbot项目，项目ID：210220088&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;编辑：硬核桃社区&lt;br /&gt;
+Source: &lt;a href=&quot;https://mp.weixin.qq.com/s/31qVyvmbHm4wHjeZNovvMg&quot;&gt;硬核桃 Walnut Hardcore&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>lijiarui</name></author><category term="ospp" /><category term="sticky" /><category term="ospp" /><category term="wechaty-puppet-5g" /><category term="ospp-2021" /><category term="china-unicom" /><summary type="html">近期 硬核桃社区开展了一场面向在校大学生的开发者活动。 硬核桃@钢铁嘉 IronJia、Wechaty@李卓桓、Wechaty@李佳芮一直在活动中指导学生的开发工作。 昨天，传来了他们的最新进展——</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/07-walnut-5g-press/teaser.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/07-walnut-5g-press/teaser.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">零基础小白HOWTO系列 – 搭建第一个基于PadLocal的Python-Wechaty应用</title><link href="https://wechaty.js.org/2021/07/24/newbie-how-to-build-python-wechaty-with-padlocal/" rel="alternate" type="text/html" title="零基础小白HOWTO系列 – 搭建第一个基于PadLocal的Python-Wechaty应用" /><published>2021-07-24T00:00:00+00:00</published><updated>2021-07-24T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/07/24/newbie-how-to-build-python-wechaty-with-padlocal</id><content type="html" xml:base="https://wechaty.js.org/2021/07/24/newbie-how-to-build-python-wechaty-with-padlocal/">&lt;blockquote&gt;
+  &lt;p&gt;写在前面：本HowTo系列用来记录个人在Wechaty的学习和研究过程中的点滴经验，希望能帮助更多人避免我踩过的坑，快速熟悉Wechaty这个工具&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;背景&quot;&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;2021年初的时候，在社区上发现了Wechaty项目，由于时间不够充分，没有静下心认真的研究相关内容，加上之前的文档确实不够健全，学习成本很高，一个简单的类似HelloWorld的代码也没有跑通，遂暂时搁置了这个工具的研究。直到最近个人工作上有些需求，需要对公司的微信数据进行管理和社区的自动化运营操作，想起来之前接触的Wechaty工具，就想着再次尝试一下，重新开始学习这个工具。&lt;/p&gt;
+
+&lt;p&gt;欢迎大家在实践本HowTo内容的过程中，将遇到的问题及对应的解决方法发送给我 &lt;a href=&quot;mailto:harrison.gyao@gmail.com&quot;&gt;harrison.gyao@gmail.com&lt;/a&gt; ，我会在收到信息后，及时更新本文档，以帮助更多的人，谢谢你的反馈~！&lt;/p&gt;
+
+&lt;h2 id=&quot;前提要求&quot;&gt;前提要求&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;本文阅读的难度不大，按照文中的标准操作，大概率会能够自主的搭建相应的应用服务环境，并完成一个基本功能的实现。但本文要求读者必须具备基本的编程技能，在服务端领域能够知道RPC（Remote Procedure Call)、Docker的相关基本知识，如果对这方面内容不了解，可以查阅 Reference 的相关部分。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在执行本文中提供的 Gateway 服务脚本时，需要提前确保执行机上的 Docker Daemon 是否正常启动，否则shell脚本执行失败。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;试验环境&quot;&gt;试验环境&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;macOS Ver:11.5&lt;/li&gt;
+  &lt;li&gt;Python 3.8&lt;/li&gt;
+  &lt;li&gt;Docker desktop (latest)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;内容介绍&quot;&gt;内容介绍&lt;/h2&gt;
+
+&lt;p&gt;本篇Blog会从以下三个方面内容来描述如何快速的能够完成一个最简单的Python-Wechaty应用的搭建，同时对一些过程中可能遇到的问题，进行及时的处理。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;必须掌握的基本知识&lt;/li&gt;
+  &lt;li&gt;最简Ding-Dong应用代码&lt;/li&gt;
+  &lt;li&gt;过程中遇到过的问题&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;必须掌握的基本知识&quot;&gt;必须掌握的基本知识&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wechaty的基本结构&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-newbie-how-to-build-python-wechaty-with-padlocal/wechaty-architecture.webp&quot; alt=&quot;基本结构&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这个结构图例很好的阐述了Wechaty的生态环境架构：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;底层是各个IM工具的通讯协议层，未来可以支持更多IM工具的消息传输，并在这个层级上进行相应的扩充即可。&lt;/li&gt;
+  &lt;li&gt;Wechaty Puppet Service Provider 是作为对底层IM协议层的操作控制层作用而设计存在，可以在使用 “Wechaty Puppet Abstract” 通用接口层的设计基础上，忽略底层协议及IM的个性化，提炼共性的操作内容，暴露统一的操作接口给外部调用者。&lt;/li&gt;
+  &lt;li&gt;Wechaty （Python、NodeJS等），是基于gRPC框架基础上，在”Wechaty Puppet Abstract”的接口定义约束条件下，通过gRPC的Stub程序完成对底层Provider的掉用。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Service相关&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Wechaty 对于底层IM消息解析和处理，是通过Service Provider 控制的协议层程序来完成相关处理，所以对应不同IM的不同协议内容（如：微信的Pad协议、web协议、mac协议等），需要使用配套的Service Provider来完成对底层IM消息的处理。
+目前已经实现的Service Provider有如下几种：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-newbie-how-to-build-python-wechaty-with-padlocal/service-provider.webp&quot; alt=&quot;Service Provider&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;具体的Service Provider的内容，可以持续关注 &lt;a href=&quot;https://wechaty.js.org/docs/puppet-providers/&quot;&gt;provider docs&lt;/a&gt; 的最新情况。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;关于Token&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;顾名思义，针对微信相关的wechaty服务来说，token需要在Token Gateway的配合下一起使用，是作为当前服务的一个认证接入使用的凭证，用来控制访问准入和时长&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;关于GateWay&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;也就是 Wechaty Puppet Service Token Gateway，在整体架构过程中，通过该Gateway 利用gRPC协议，将制定的 Wechaty Service Provider 的服务封装并转化为 Wechaty Puppet Service，供更上层的业务应用层面的程序调用和使用。&lt;/p&gt;
+
+&lt;p&gt;换句话说，针对与目前版本的 Python-Wechaty ，使用的时候，只能通过Gateway的方式，指定使用 “wechaty-puppet-service” 来完成与业务代码的交互，实现微信数据的操作。&lt;/p&gt;
+
+&lt;h2 id=&quot;最简ding-dong应用代码搭建&quot;&gt;最简Ding-Dong应用代码搭建&lt;/h2&gt;
+
+&lt;h3 id=&quot;gateway-服务准备&quot;&gt;GateWay 服务准备&lt;/h3&gt;
+
+&lt;p&gt;目前Gateway服务是封装在Docker容器中，使用的时候可以直接创建如下shell脚本完成对应容器服务的初始化。读者可以直接copy以下代码，在本地创建一个shell脚本文件后执行即可。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;对应shell脚本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;```shell script
+#!/bin/bash&lt;/p&gt;
+
+&lt;p&gt;export WECHATY_LOG=”verbose” # 如果觉得打印信息太多，可以使用 “error” 级别
+export WECHATY_PUPPET=”wechaty-puppet-padlocal”  # 针对当前例子，我们使用padlocal协议作为 Service Provider使用的底层协议 ，这个部分不能错
+export WECHATY_PUPPET_PADLOCAL_TOKEN=”puppet_padlocal_xxxxx” # 这里是你自己申请的padlocal Token ，这个部分不能错&lt;/p&gt;
+
+&lt;p&gt;export WECHATY_PUPPET_SERVER_PORT=”8788” # Gateway服务在容器中暴露的本地端口
+export WECHATY_TOKEN=”b74d7f7f-cfd0-4def-1c68f0066254” # 使用：import uuid (回车)  print(uuid.uuid4()) 获得的结果&lt;/p&gt;
+
+&lt;p&gt;docker run -ti &lt;br /&gt;
+  –name wechaty_puppet_service_token_gateway &lt;br /&gt;
+  –rm &lt;br /&gt;
+  -e WECHATY_LOG &lt;br /&gt;
+  -e WECHATY_PUPPET &lt;br /&gt;
+  -e WECHATY_PUPPET_PADLOCAL_TOKEN &lt;br /&gt;
+  -e WECHATY_PUPPET_SERVER_PORT &lt;br /&gt;
+  -e WECHATY_TOKEN &lt;br /&gt;
+  -p “$WECHATY_PUPPET_SERVER_PORT:$WECHATY_PUPPET_SERVER_PORT” &lt;br /&gt;
+  wechaty/wechaty&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+以上shell脚本编写完成后，可以直接在本地的Term或Console中进行执行，如果过程中遇到有关docker的问题，请自行&quot;谷歌&quot;寻找相应的解决方法。
+
+- 结果检查
+
+1. 通过执行 ``` netstat -an |grep 8788 ``` 命令检查相应脚本中8788端口是否已经被监听
+
+1. 访问 &amp;lt;https://api.chatie.io/v0/hosties/${uuid4}&amp;gt; 地址（注意：${uuid4} 是一个占位符，实际访问的时候，需要将该位置替换为shell脚本中&quot;WECHATY_TOKEN&quot;环境变量使用的uuid字符串），如果服务**正常**，可以看到类似
+
+``` json
+{
+    &quot;host&quot;: &quot;122.233.170.88&quot;,
+    &quot;port&quot;: 8788
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;的显示内容。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;查看服务启动日志信息&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-newbie-how-to-build-python-wechaty-with-padlocal/gateway-service-1.webp&quot; alt=&quot;Gateway启动日志&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;正如上面的截图，是首次正确启动service gateway的时候的服务日志，尤其关注截图中红框部分，如果看到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PuppetServer start()&lt;/code&gt;以及&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[PuppetPadlocal] start login with type: QrLogin&lt;/code&gt;，说明服务已经正常启动。&lt;/p&gt;
+
+&lt;p&gt;经过上面几步的检查，如果没有其他问题，你当前的服务已经启动成功，并完成token的服务注册，可以正常接受业务层传递的操作信息。如果此时查看gateway的日志，找到类似&lt;/p&gt;
+
+&lt;p&gt;```shell script
+Online QR Code Image: https://wechaty.js.org/qrcode/http%3A%2F%2Fweixin.qq.com%2Fx%2FgYEttTm04jj2_EtvmXmq&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+信息时，可以直接访问对应的链接，扫码后即可完成微信账号的Pad登录，并且在微信中，可以看到如下图的登录状态显示。
+
+![微信登录设备列表](/assets/2021/07-newbie-how-to-build-python-wechaty-with-padlocal/wechat-logged-device-list.webp)
+
+### Ding-Dong 代码编写
+
+```python
+# coding=utf-8
+&quot;&quot;&quot;
+# @Licensed : (C) Copyright
+# @Time     : 2021/7/24 上午11:38
+# @Author   : Harrison Yao
+# @FILE     : WechatGroupBot.py
+# @Version  : 
+# @Function : 
+# @Requirements:
+&quot;&quot;&quot;
+
+import logging,asyncio,os
+from typing import Optional, Union
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from wechaty import Wechaty, Message, ScanStatus, Contact, Room, Image, UrlLink
+from wechaty.plugin import WechatyPlugin
+from wechaty_puppet import FileBox, UrlLinkPayload, MessagePayload  # 发送文件， 发送链接， 消息
+
+os.environ['WECHATY_LOG_FILE_KEY'] = '一个日志文件的绝对路径'  # 如果不指定，会自动在执行程序的位置生成logs目录和根据日期时间为命名的日志文件
+LOG_FORMAT = &quot;%(asctime)s - %(levelname)s - %(message)s&quot;
+logging.basicConfig(filename='../logs/wechaty_run_server_error.log', format=LOG_FORMAT, level=logging.INFO )
+
+
+class MyBot(Wechaty):
+
+    async def on_scan(self, qr_code: str, status: ScanStatus,
+                      data: Optional[str] = None):
+        &quot;&quot;&quot;监听微信扫码登录, 微信扫码的链接&quot;&quot;&quot;
+        print(&quot;https://wechaty.js.org/qrcode/{}&quot;.format(qr_code))
+
+    async def on_login(self, contact: Contact):
+        &quot;&quot;&quot;监听微信扫码登录的用户信息&quot;&quot;&quot;
+        contact_info = contact.payload
+        print(&quot;扫码登录的用户信息: {}&quot;.format(contact_info.name))
+
+    async def on_ready(self, _):
+        # find by id
+        # 1. get all of friends
+        &quot;&quot;&quot;
+        我是在这里读取的好友信息
+        &quot;&quot;&quot;
+        pass
+
+    async def on_message(self, msg: Message):
+        &quot;&quot;&quot;监听微信消息&quot;&quot;&quot;
+        print(&quot;监听接受到的消息业务处理: {}&quot;.format(msg.text()))
+        from_contact: Optional[Contact] = msg.talker()
+        text = msg.text()
+        room: Optional[Room] = msg.room()
+        if text.lower() == 'ding':
+            conversation: Union[
+                Room, Contact] = from_contact if room is None else room
+            await conversation.ready()
+            await conversation.say('[自动回复] dong')
+            file_box = FileBox.from_url(
+                'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/'
+                'u=1116676390,2305043183&amp;amp;fm=26&amp;amp;gp=0.webp',
+                name='ding-dong.webp')
+            await conversation.say(file_box)
+
+
+class BotPlugin(WechatyPlugin):
+    @property
+    def name(self) -&amp;gt; str:
+        &quot;&quot;&quot;get the name of the plugin&quot;&quot;&quot;
+        return '智能客服'
+
+    async def tick(self):
+        &quot;&quot;&quot;send message  plugin scheduler&quot;&quot;&quot;
+        pass
+
+
+    async def init_plugin(self, wechaty: Wechaty):
+        &quot;&quot;&quot;init plugin&quot;&quot;&quot;
+        await super().init_plugin(wechaty)
+        scheduler = AsyncIOScheduler()
+        scheduler.add_job(self.tick, 'cron')
+        scheduler.start()
+
+
+async def main():
+    &quot;&quot;&quot;
+    Async Main Entry
+    &quot;&quot;&quot;
+    bot = MyBot()
+    bot._options.puppet = &quot;wechaty-puppet-service&quot;  # python-wechaty 只能使用基于gRPC的 service provider
+    bot._options.puppet_options.token = &quot;puppet_padlocal_xxxxx&quot;  # 使用你自己申请的PadLocal Token
+    bot._options.puppet_options.end_point = &quot;127.0.0.1:9001&quot;  # 这里一定要注意端口和gateway service启动时指定的端口保持一致
+    bot.use(BotPlugin())
+
+    await bot.start()
+
+asyncio.run(main())
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;在使用相关代码前，各位自行安装对应的依赖库，这里就不赘述了。&lt;/p&gt;
+
+&lt;h2 id=&quot;过程中遇到的问题概览&quot;&gt;过程中遇到的问题概览&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;本地环境网络代理引发的问题&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在一开始的尝试过程中，由于本人习惯于系统开机后就自动架梯，以实现随时随地的科学上网需求，所以也没做过太多网络层的关注和检查，在启动Gateway Service时，发现 Wechaty Puppet Service 始终无法完成初始化，无法看到日志中的登录二维码链接地址或用户登录成功的信息，取而代之的是一系列心跳检查和服务状态的切换，情况如下图所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-newbie-how-to-build-python-wechaty-with-padlocal/gateway-firewall-issue.webp&quot; alt=&quot;微信登录设备列表&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;过程中，始终只是有心跳检查的日志信息，但没有其他登录成功信息或者初次登录时的扫码信息，所以怀疑是网络层的问题导致部分数据没有正常发送和处理造成，同时联想到以前自己在手机上安装代理软件进行网络抓包时很多应用基于SSL安全双向校验的问题，会导致应用网络请求失败的案例，猜测是否是本机的网络代理设置导致 gateway 与 微信服务 之间的pad协议请求无法正常处理，导致微信服务操作异常，随后关闭本地的代理服务后重新启动gateway服务以及python代码，问题解除。&lt;/p&gt;
+
+&lt;h2 id=&quot;特别致谢&quot;&gt;特别致谢&lt;/h2&gt;
+
+&lt;p&gt;本文档所述试验过程中，得到了如下几位同学的支持，再次特别提出感谢：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;微信名：秋客&lt;/li&gt;
+  &lt;li&gt;微信名：Wyx&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/187560185&quot;&gt;RPC科普&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/187505981&quot;&gt;Docker科普&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/docs/specs/token&quot;&gt;https://wechaty.js.org/docs/specs/token&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/2021/01/14/wechaty-puppet-service/&quot;&gt;https://wechaty.js.org/2021/01/14/wechaty-puppet-service/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/docs/puppet-services/&quot;&gt;https://wechaty.js.org/docs/puppet-services/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>harrisonyao</name></author><category term="article" /><category term="blog" /><category term="newbie" /><category term="howto" /><category term="python" /><summary type="html">写在前面：本HowTo系列用来记录个人在Wechaty的学习和研究过程中的点滴经验，希望能帮助更多人避免我踩过的坑，快速熟悉Wechaty这个工具</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/07-newbie-how-to-build-python-wechaty-with-padlocal/rare-book.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/07-newbie-how-to-build-python-wechaty-with-padlocal/rare-book.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">GSoD’21 Second Month Evaluation</title><link href="https://wechaty.js.org/2021/07/23/gsod-2021-second-month-evaluation/" rel="alternate" type="text/html" title="GSoD’21 Second Month Evaluation" /><published>2021-07-23T00:00:00+00:00</published><updated>2021-07-23T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/07/23/gsod-2021-second-month-evaluation</id><content type="html" xml:base="https://wechaty.js.org/2021/07/23/gsod-2021-second-month-evaluation/">&lt;h2 id=&quot;google-season-of-docs21-second-month-evaluation&quot;&gt;Google Season of Docs’21 second month evaluation&lt;/h2&gt;
+
+&lt;h3 id=&quot;post-summary&quot;&gt;Post Summary&lt;/h3&gt;
+
+&lt;p&gt;In phase two of the Google Season of Docs’21 program, technical writers have carried the great work they were doing. Few projects are coming towards completion,
+ and each project has made more than 50% progress, which is excellent and up to the mark.&lt;/p&gt;
+
+&lt;p&gt;Also, we had 3 meetings in this phase to discuss aspects related to the GSoD’21 project.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/2021/06/22/gsod-2021-fourth-meeting/&quot;&gt;Wechaty GSoD’21 fourth meeting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/2021/07/06/gsod-2021-fifth-meeting/&quot;&gt;Wechaty GSoD’21 fifth meeting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/2021/07/18/gsod-2021-sixth-meeting/&quot;&gt;Wechaty GSoD’21 sixth meeting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can learn more from our &lt;a href=&quot;https://docs.google.com/document/d/1fVCk8qRYc4RKGMf2UY5HOe07hEhPUOpGC34v88GEFJg/edit#heading=h.edr3nzd8l43b&quot;&gt;meeting notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This post gives an overview of the performance of tech writers in the second phase&lt;/p&gt;
+
+&lt;h3 id=&quot;tutorials-for-users-of-wechaty-team&quot;&gt;Tutorials for users of Wechaty team&lt;/h3&gt;
+
+&lt;p&gt;Shwetal Soni is more or less up with her timeline and has completed tasks as per her proposal on time. She also knows how to report
+ errors to the mentors in the from issues which is great. She also diligently maintains the follow-up sheet and her Github issue.&lt;/p&gt;
+
+&lt;p&gt;Souviks’ quality of docs has exponentially improved in the second phase, and his few PRs towards the end of the second phase have been very
+ fluent and exceptional. Like his teammate, he has also completed most of the tasks as per the timeline. Also, he has been consistent like her
+  teammate in the program, attending every meeting, and committing at a regular frequency. He also fixed a few technical errors.&lt;/p&gt;
+
+&lt;p&gt;Overall the tutorials team is very dedicated to the project. Both of them did exceptional on their PRs, and also walked the extra mile to make the
+  documents more friendly to the users, like adding code sandbox. Besides, we also made some modifications to the structure. A new document about
+   the “starter bot” is added. For the sake of the new document, though some of the documents were finished earlier, they still spent time modifying
+    the old documents which are not on their proposal.&lt;/p&gt;
+
+&lt;p&gt;They have complete about 55% of their GSoD work.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1QglSl5JuZuVom84Or8yGhHb3_YbRMDBPgccxoMmnBa0/edit#gid=2093144258&quot;&gt;Tutorial follow-ups&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction-and-explanation-team&quot;&gt;Introduction and Explanation team&lt;/h3&gt;
+
+&lt;p&gt;Their project should have ended by now, but they have submitted almost everything on time. Mainly they polished and revised their PRs in this phase.
+We are expecting their final project report in the next phase. Iterations in their PRs are still going on, thanks to Rui for actively reviewing them.&lt;/p&gt;
+
+&lt;p&gt;They have completed 90% of the work&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1QglSl5JuZuVom84Or8yGhHb3_YbRMDBPgccxoMmnBa0/edit#gid=414745245&quot;&gt;Introduction and Explanation follow-ups&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;reference-section-team&quot;&gt;Reference Section team&lt;/h3&gt;
+
+&lt;p&gt;Shraddha has been very consistent and has been regularly committing PRs. She also implements all the suggestions in her PRs.
+ She takes a lot of effort in reviewing other PRs and also helping the community by placing relevant labels.&lt;/p&gt;
+
+&lt;p&gt;Soumi was out for quite a long period, so she needs some time to catch up on how to do documentation. Her contribution is fine now, but currently,
+  her document style is a bit different from the rest of the team. She is also very hard working now so we expect this would not be a question.&lt;/p&gt;
+
+&lt;p&gt;Collectively they have completed around half of their work, and Shraddha has completed about 55% of her work.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1QglSl5JuZuVom84Or8yGhHb3_YbRMDBPgccxoMmnBa0/edit#gid=1248267387&quot;&gt;Reference Section follow-ups&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;reconstruct-landing-page-with-value-propositions-team&quot;&gt;Reconstruct Landing Page with Value Propositions team&lt;/h3&gt;
+
+&lt;p&gt;Sajen is always enthusiastic about his work, and he works with utmost seriousness about his project.&lt;/p&gt;
+
+&lt;p&gt;They are working on both the new landing page and the introduction project video. They are yet to raise the PR for their work but
+ seeing his draft landing page volunteers guess that their project has progressed about 70%&lt;/p&gt;
+
+&lt;p&gt;We would like to hear more from Arnab in the coming days, and I would like to urge him to be more responsive to emails, most of the
+  replies come from Sajen, maybe they have divided work like that, but we are looking forward to hearing from his as well. Also, he forgot
+   to fill the 2nd survey form despite being given a reminder.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1QglSl5JuZuVom84Or8yGhHb3_YbRMDBPgccxoMmnBa0/edit#gid=2106682325&quot;&gt;Landing Page follow-ups&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;improve-the-grpc-and-openapi-ecosystem-team&quot;&gt;Improve the gRPC and OpenAPI ecosystem team&lt;/h3&gt;
+
+&lt;p&gt;He &lt;a href=&quot;https://github.com/wechaty/openapi/pull/13&quot;&gt;added Swagger UI to Express Route by default&lt;/a&gt;, which we believe is a subproject in itself!&lt;/p&gt;
+
+&lt;p&gt;Although not much docs as we expected in GSoD to be, but he has added enough value to his project by adding code. Another thing we
+ have seen is a bunch of refactoring PRs from him, we are not sure that we should be that much concerned about pretty printing the code&lt;/p&gt;
+
+&lt;p&gt;Rajiv has diligently maintained the follow-ups this phase. His few PRs can be reviewed by the code contributors only we believe, his PRs
+ involving docs and pretty-printing the code have been reviewed by the volunteers.&lt;/p&gt;
+
+&lt;p&gt;Volunteers believe his work to be 90 % complete&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1QglSl5JuZuVom84Or8yGhHb3_YbRMDBPgccxoMmnBa0/edit#gid=2106682325&quot;&gt;follow-ups&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-guides-team&quot;&gt;How-to Guides team&lt;/h3&gt;
+
+&lt;p&gt;Their PRs have been easy to review, and they have been comfortable with Git this phase. There is great coordination between the team, and they are very organized.&lt;/p&gt;
+
+&lt;p&gt;The how-to guide’s team is very hardworking, and their improvement is very significant.&lt;/p&gt;
+
+&lt;p&gt;Their work is about 85% completed&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1QglSl5JuZuVom84Or8yGhHb3_YbRMDBPgccxoMmnBa0/edit#gid=1163289790&quot;&gt;follow-ups&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;suggestions-for-the-upcoming-months&quot;&gt;Suggestions for the upcoming months&lt;/h3&gt;
+
+&lt;p&gt;Tech Writers want faster PR reviews and merging, so that is an area for us to improve, and we have improved a lot as compared to the previous phase.&lt;/p&gt;
+
+&lt;p&gt;Special thanks to Simin for adding her evaluations in this post and maintaining the Wechaty follow-ups sheet for tracking timelines of tech writers.&lt;/p&gt;</content><author><name>rohitesh-kumar-jain</name></author><category term="gsod" /><category term="google" /><category term="gsod" /><category term="evaluation" /><category term="2021" /><category term="docs" /><summary type="html">Google Season of Docs’21 second month evaluation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/07-gsod-2021-second-month-evaluation/gsod-2021.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/07-gsod-2021-second-month-evaluation/gsod-2021.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wechaty: 6 行代码构建基于 Whatsapp 和个人微信的对话式人机交互界面应用</title><link href="https://wechaty.js.org/2021/07/22/gdg-shanghai-wechaty/" rel="alternate" type="text/html" title="Wechaty: 6 行代码构建基于 Whatsapp 和个人微信的对话式人机交互界面应用" /><published>2021-07-22T00:00:00+00:00</published><updated>2021-07-22T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/07/22/gdg-shanghai-wechaty</id><content type="html" xml:base="https://wechaty.js.org/2021/07/22/gdg-shanghai-wechaty/">&lt;p&gt;在本周四晚 8 点的《社区说》中，上海 GDG 社区邀请嘉宾李卓桓（Huan）老师在 B 站直播间与伙伴们畅聊他的聊天机器人SDK：Wechaty&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-gdg-shanghai-wechaty/huan-intro.webp&quot; alt=&quot;huan intro&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;讲师介绍&quot;&gt;讲师介绍&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;李卓桓&lt;/li&gt;
+  &lt;li&gt;谷歌开发者专家（机器学习方向), Conversational SDK Wechaty 作者&lt;/li&gt;
+  &lt;li&gt;TensorFlow.js布道师，Angular爱好者&lt;/li&gt;
+  &lt;li&gt;《Chatbot从0到1》、《简明的TensorFlow 2》联合作者，GitHub万星开源 Conversational SDK Wechaty 作者&lt;/li&gt;
+  &lt;li&gt;PreAngel 天使投资人，专注AI/Chatbot领域创业团队和项目&lt;/li&gt;
+  &lt;li&gt;清华大学本科，中欧国际工商学院EMBA&lt;/li&gt;
+  &lt;li&gt;紫霞 BBS、水木清华 BBS 站长，前优酷网首席科学家。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;对话式人机交互界面趋势&quot;&gt;对话式人机交互界面趋势&lt;/h2&gt;
+
+&lt;p&gt;李老师讲述在人机交互中，机器如何从“笨”变“聪明”、从打孔磁带到语音助手，交互方式一步步简化，机器越来越能够理解人所传达的指令。&lt;/p&gt;
+
+&lt;h2 id=&quot;人工智能前沿发展&quot;&gt;人工智能前沿发展&lt;/h2&gt;
+
+&lt;p&gt;李老师介绍了像 GPT-3 和 DALL·E 在自然语言处理上，通过简单的的一句自然语言，让机器生成有一定复杂度的文章或图片组。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-gdg-shanghai-wechaty/gpt-3.webp&quot; alt=&quot;gpt-3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-gdg-shanghai-wechaty/dall-e.webp&quot; alt=&quot;dall-e&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;关于 Conversation AI, 李老师提到机器人聊天对话应用的种种困难，讲述了AI在提升这类机器人理解能力上的作用，以及人机合作如何在一定程度上改进用户体验。&lt;/p&gt;
+
+&lt;h2 id=&quot;wechaty-介绍&quot;&gt;Wechaty 介绍&lt;/h2&gt;
+
+&lt;p&gt;李老师分享到他最初做 Wechaty 的灵感，来源于2014年他的微信消息和好友列表爆满…以至于影响使用效率，于是希望将重复性高的工作整合给机器人完成，实现自动化。&lt;/p&gt;
+
+&lt;p&gt;根据 Wechaty 官方介绍，&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Wechaty 是一个开源的的对话机器人 SDK，支持个人号微信。它是一个使用 Typescript 构建的 Node.js 应用。支持多种微信接入方案，包括网页，iPad，iOS，Windows， Android 等。同时支持 Linux, Windows, Darwin (OSX / Mac) 和 Docker 多个平台。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Wechaty 帮助开发者实现一个让用户无感知的在 IM (Instant Messaging) 平台与接入的机器人对话或交互。开发者在 IM 平台扫码接入，自由选择底层并设计应用层，最终实现智能对话。&lt;/p&gt;
+
+&lt;p&gt;Wechaty 现支持多种即时通讯平台，可用多种编程语言实现：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-gdg-shanghai-wechaty/wechaty-puppets.webp&quot; alt=&quot;wechaty-puppets&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GitHub Repo: &lt;a href=&quot;https://github.com/wechaty/wechaty&quot;&gt;https://github.com/wechaty/wechaty&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;官网: &lt;a href=&quot;https://wechaty.js.org&quot;&gt;https://wechaty.js.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;live-demo&quot;&gt;Live Demo&lt;/h2&gt;
+
+&lt;p&gt;李老师在直播现场演示如何快速配置一个微信机器人&lt;/p&gt;
+
+&lt;p&gt;首先通过指令&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git@github.com:wechaty/wechaty-getting-started.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;将 wechaty-getting-started 仓库克隆至本地；&lt;/p&gt;
+
+&lt;p&gt;然后输入指令&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;WECHATY_PUPPET&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;wechaty-puppet-wechat npm start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;以启动基于微信的 wechaty 机器人，&lt;/p&gt;
+
+&lt;p&gt;或者输入指令&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;WECHATY_PUPPET&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;wechaty-puppet-whatsapp npm start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;以启动基于 WhatsApp 的 Wechaty 机器人。&lt;/p&gt;
+
+&lt;p&gt;在 Demo 中，个人微信号扫码登陆 web 版微信化身成为机器人，收到带有关键字 “ding” 的消息后，会自动发送 “dong” 作为回复：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-gdg-shanghai-wechaty/ding-dong.webp&quot; alt=&quot;ding-dong&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wechaty 开源社区自成立来，已获多项荣誉，百万量级的下载量，其开发者群体数量庞大且国内外影响力广，如图展示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/07-gdg-shanghai-wechaty/honors.webp&quot; alt=&quot;awards-honors&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;问答环节中同学们针对 Wechaty 的安全性、限制、多轮语义分析等方面提出了精彩的问题，感兴趣的伙伴们可以查看回放：&lt;/p&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/q7a6x81RLA8&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;00:00 社区说：主持人介绍GDG社区&lt;/li&gt;
+  &lt;li&gt;06:27 Talk 开场&lt;/li&gt;
+  &lt;li&gt;09:25 李卓桓介绍&lt;/li&gt;
+  &lt;li&gt;11:43 对话式人机交互界面趋势&lt;/li&gt;
+  &lt;li&gt;15:11 人工智能前沿发展&lt;/li&gt;
+  &lt;li&gt;23:00 Conversation AI 场景&lt;/li&gt;
+  &lt;li&gt;26:58 Wechaty 介绍&lt;/li&gt;
+  &lt;li&gt;29:40 Live Demo&lt;/li&gt;
+  &lt;li&gt;45:26 Wechaty 总结&lt;/li&gt;
+  &lt;li&gt;47:46 Chatbot 行业前景&lt;/li&gt;
+  &lt;li&gt;49:45 Q/A&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bilibili: &lt;a href=&quot;https://www.bilibili.com/video/BV13f4y1575J&quot;&gt;https://www.bilibili.com/video/BV13f4y1575J&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;/assets/js/viewer-js/#/assets/2021/07-gdg-shanghai-wechaty/wechaty-community-talk-live-demo.pdf&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;小编认为可以让一个 bot 来做发送文件的事情呢 ^_^&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;关于社区说&quot;&gt;关于社区说&lt;/h2&gt;
+
+&lt;p&gt;「社区说」是一个由谷歌开发者社区 (Google Developer Group) 主导的，与热爱技术的开发者们交流技术，直播代码，讨论产品，分享心得的小型线上会议，每次时长 45 分钟到 1 个小时。&lt;/p&gt;
+
+&lt;p&gt;活动将由不同的谷歌开发者社区举办并邀请来自国内的不同技术方向的谷歌开发者专家以及对技术有热情、愿意分享的嘉宾，一起来聊一聊最近做的项目，最近写的代码，或者三五技术好友互相探讨聊天。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;编辑：陈君瑶
+Source: &lt;a href=&quot;https://mp.weixin.qq.com/s/xz4w1BOFJmfqeIzBq239hw&quot;&gt;GDG&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>huan</name></author><category term="talk" /><category term="gdg" /><category term="google" /><category term="news" /><summary type="html">在本周四晚 8 点的《社区说》中，上海 GDG 社区邀请嘉宾李卓桓（Huan）老师在 B 站直播间与伙伴们畅聊他的聊天机器人SDK：Wechaty</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/07-gdg-shanghai-wechaty/community-wechaty.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/07-gdg-shanghai-wechaty/community-wechaty.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
